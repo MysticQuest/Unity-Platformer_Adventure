@@ -113,6 +113,6 @@ public class Player : MonoBehaviour
     IEnumerator GameOver()
     {
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Game Over 2");
+        SceneManager.LoadScene("Game Over 3");
     }
 }
